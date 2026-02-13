@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: tool3/ncc@master
+      - uses: tool3/ncc@1c992ff714d92b5a6545ae16873ded3057615f3f # master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           src: 'src/securityscorecard-generator.js'
